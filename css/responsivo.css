@@ -1,0 +1,61 @@
+/* Site criado em monitor 1024 */
+
+
+
+/*---------- 1366px -----------*/
+
+@media screen and (min-width: 1366px){
+
+article{font-size: 1.3em;color: #333;font-family: 'Fira Sans', sans-serif}
+
+ul{font-size: 1.0em;padding: 10%;position: relative;top: 33%}
+
+}
+
+/*---------- 1440 px -----------*/
+@media screen and (min-width: 1440px){
+
+article{font-size: 1.3em;color: #333;font-family: 'Fira Sans', sans-serif}
+
+ul{font-size: 1.0em;padding: 10%;position: relative;top: 33%}
+
+}
+
+
+/*---------- 1600px -----------*/
+@media screen and (min-width: 1600px){
+
+ul{font-size: 1.0em;padding: 10%;position: relative;top: 33%}
+
+}
+
+
+/*---------- 1680px -----------*/
+@media screen and (min-width: 1680px){
+
+article{font-size: 1.3em;color: #333;font-family: 'Fira Sans', sans-serif}
+
+ul{font-size: 1.0em;padding: 10%;position: relative;top: 33%}
+
+}
+
+/*---------- 1920px -----------*/
+@media screen and (min-width: 1920px){
+
+article{font-size: 1.3em;color: #333;font-family: 'Fira Sans', sans-serif}
+
+ul{font-size: 1.1em;padding: 10%;position: relative;top: 33%}
+
+}
+
+
+/*---------- 2560 px -----------*/
+@media screen and (min-width: 2560px){
+
+article{font-size: 1.3em;color: #333;font-family: 'Fira Sans', sans-serif}
+
+ul{font-size: 1.1em;padding: 10%;position: relative;top: 33%}
+
+
+}
+

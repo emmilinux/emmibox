@@ -1,0 +1,87 @@
+
+/* -----------------Fontes */
+@font-face {
+font-family: 'lato-light';
+src: url('fonte/Lato-Light.ttf');
+}
+
+
+@font-face {
+font-family: 'lato-bold';
+src: url('fonte/Lato-Bold.ttf');
+}
+/*--------------------FIM*/
+
+
+/* Zerar Margin */
+*{margin: 0 auto;}
+
+/*---------BODY,ARTICLE,NAV,UL*/
+body{background-color: 	;}
+article{font-size: 1.2em;color: #333;font-family: 'lato-light';}
+nav{padding-top: 2%;padding-bottom: 2%;padding-right: 1%;padding-left: 1%;margin-left: 0;position: fixed;text-align: center;background: #007fff;width: 05%;height: 100%;box-shadow: 0.5px 0.5px 0.5px 1px #ebebeb;color: #ffffff;}
+ul{font-size: 0.8em;padding: 10%;position: relative;top: 33%;}
+
+
+/*------------IDS*/
+#todo{width: 78%;left: 12%;position: absolute;}
+#lateral{height: 100%;}
+
+
+/*---------LINKS*/
+a:link{color: #ffffff; text-decoration: none;}
+a:visited{color: #ffffff;}
+a:hover{color: #333; transition: 0.7s}
+
+/*-----------------LINKUM*/
+a.linkum:link{color: #007fff; text-decoration: none;}
+a.linkum:visited{color: #007fff;}
+a.linkum:hover{color: #333;transition: 0.7s}
+
+/*-------------------------LINK SETAS*/
+a#seta:link{color: #333;text-decoration: none;}
+a#seta:visited{color: #333;}
+a#seta:hover{color: #007fff;transition: 0.7s}
+
+/*---------------------------------------*/
+a#seta2:link{color: #333;text-decoration: none;}
+a#seta2:visited{color: #333;}
+a#seta2:hover{color: #007fff;transition: 0.7s}
+/*---------------FIM links*/
+
+
+/*---------------------Patchs de correção */
+.patchdecorrecao1 {margin-top: 10%;background-color: #f7f7f7;width: 70%;box-shadow: 0px 2px 0.2em #a0a0a0;border-radius: 10px 10px 10px 10px;padding: 20px;}
+/*---------------------FIM Patchs de correção */
+
+
+
+/*--------------DIV video*/
+.video {margin-top: 10%;margin-bottom: 10%;margin-right: 05%;padding: 20px;border-radius: 10px 10px 10px 10px;box-shadow: 0px 2px 0.2em #a0a0a0;background-color: #f7f7f7;}
+/*--------------FIM DIVS video*/
+
+
+
+/*--------------CLASSE video*/
+
+.video1 {width:80%;max-width: 80%;height:auto;margin-left: 10%;}
+/*FIM CLASSE video*/
+
+
+
+/*------------------FonteAwesome*/
+#seta {float: right;margin-top: 2%;color: #333;}
+#seta2 {margin-top: 2%;margin-right: 50%;color: #333;}
+
+
+
+/*---------------------TAGS*/
+p {text-align: justify;}
+
+h1{font-family: 'lato-bold';}
+
+
+
+/*-------------------------DISQUS*/
+
+#disqus_thread{margin-top: 10%;padding: 20px;background-color: #f7f7f7;box-shadow: 0.5px 0.5px 0.5px 1px #ebebeb;border-radius: 10px 10px 10px 10px;}
